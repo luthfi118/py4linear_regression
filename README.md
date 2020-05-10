@@ -26,7 +26,7 @@ from py4linear_regression.regression import linear_regression
 x_train=[[0,0],[0,1],[1,0],[1,1]]
 t_train=[0,1,2,3]
 classifier = linear_regression()
-classifier.learn(x,t,0,01,250)
+classifier.learn(x,t,0.01,250)
 x_test=[[0.01,0.99],[0.99,0.01]]
 y=classifier.predict(x_test)
 ```
