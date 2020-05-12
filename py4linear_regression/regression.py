@@ -47,7 +47,6 @@ class linear_regression:
         y=np.zeros(len(t),dtype='float64')
         x=np.array(x,dtype='float64')
         t=np.array(t,dtype='float64')
-        print(x)
         for i in range(epoch):
             x,t=self.__shuffle(x,t)
             for j in range(len(x)):
