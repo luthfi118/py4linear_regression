@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py4linear_regression",
-    version="0.0.4",
+    version="0.0.5",
     author="Mgs. M. Luthfi Ramadhan",
     author_email="luthfir96@gmail.com",
     description="Linear Regression Python Library",

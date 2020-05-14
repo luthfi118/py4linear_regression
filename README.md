@@ -1,4 +1,4 @@
-# py4linear_regression
+# py4linear-regression
 
 Linear Regression Python Library
 
@@ -13,20 +13,20 @@ Numpy
 
 ### Installing
 
-The easiest way to install py4linear_regression is using pip
+The easiest way to install py4linear-regression is using pip
 
 ```
-pip install py4linear_regression
+pip install py4linear-regression
 ```
 
 ### Usage
 There is 2 public method of Linear Regression class. It is learn and predict method, learn method takes 5 argument namely x_train, t_train, alpha, and epoch. It is the training data, it's label, learning rate, and number of iteration respectively. predict method takes 1 argument namely x_test. It is the data to be predicted
 ```
 from py4linear_regression.regression import linear_regression
-x_train=[[0,0],[0,1],[1,0],[1,1]]
-t_train=[0,1,2,3]
+x_train = [[0,0],[0,1],[1,0],[1,1]]
+t_train = [0,1,2,3]
 classifier = linear_regression()
 classifier.learn(x_train,t_train,0.01,250)
-x_test=[[0.01,0.99],[0.99,0.01]]
-y=classifier.predict(x_test)
+x_test = [[0.01,0.99],[0.99,0.01]]
+y = classifier.predict(x_test)
 ```
